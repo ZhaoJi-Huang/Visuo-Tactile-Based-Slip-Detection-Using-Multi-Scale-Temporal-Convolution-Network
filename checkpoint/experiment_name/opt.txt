@@ -1,0 +1,18 @@
+------------ Options -------------
+batchSize: 8
+checkpoint: checkpoint
+cropHeight: 224
+cropWidth: 224
+epochs: 100
+evaluate: False
+gpu_ids: [0, 1, 2, 3]
+length: 13
+lr: 1e-07
+manualSeed: 8691
+model_arch: cnn_mstcn
+name: experiment_name
+phase: train
+resume: 
+use_cuda: True
+workers: 0
+-------------- End ----------------
